@@ -1,0 +1,6 @@
+1. CMD to launch the gazebo environment and launch the SJTU drone along with the Teleop Keyboard:
+  ros2 launch sjtu_drone_bringup sjtu_drone_bringup.launch.py
+2. CMD to source the ROS2 contents:
+  source ~/ros2_new_ws/install/setup.bash
+3. CMD to launch the slam tool box:
+  ros2 launch slam_toolbox online_async_launch.py slam_params_file:=/home/your_home_dir_name/ros2_new_ws/src/sjtu_drone/cartographer_config/mapper_params_online_async.yaml
